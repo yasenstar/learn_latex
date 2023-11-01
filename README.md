@@ -2,7 +2,7 @@
 
 Learning LaTeX and practice in hands-on work
 
-- Github address: https://github.com/yasenstar/learn_latex
+- GitHub address: https://github.com/yasenstar/learn_latex
 - Gitee address: https://gitee.com/yasenstar/learn_latex
 
 ## [简单高效LaTeX](Simple_LATEX/README.md)
