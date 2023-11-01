@@ -8,6 +8,10 @@ Author: 吴康隆
 
 [mindmap file in FreePlanc](simple_latex.mm)
 
+Exported mindmap static image:
+
+![simple latx](img/Simple_LATEX.jpg)
+
 ## Tutorial Videos List
 
 | Video Title | Link in YouTube | Link in bilibili |
