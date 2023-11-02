@@ -6,7 +6,7 @@ Author: 吴康隆
 
 ## Mindmap of the book
 
-[mindmap file in FreePlanc](simple_latex.mm)
+[mindmap file in FreePlane](simple_latex.mm)
 
 Exported mindmap static image:
 
