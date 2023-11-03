@@ -3,8 +3,8 @@
 <node TEXT="简单高效LATEX" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1698846544311">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="0.77">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_nord_template.mm"/>
+<hook NAME="MapStyle" background="#f9f9f8" zoom="0.16062914">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -143,8 +143,7 @@
       如果在行末添加这个命令，可以防止LaTeX在行末插入一些奇怪的空白符
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="^：数学环境中的上标命令符" ID="ID_1543996702" CREATED="1699032377697" MODIFIED="1699032389329"/>
 <node TEXT="&amp;：表格环境中的跳列符" ID="ID_1579784334" CREATED="1699032436161" MODIFIED="1699032474309"/>
