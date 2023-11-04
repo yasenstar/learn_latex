@@ -3,7 +3,7 @@
 <node TEXT="简单高效LATEX" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1698846544311">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="0.16062914">
+<hook NAME="MapStyle" background="#f9f9f8" zoom="0.598">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -291,7 +291,7 @@
 <node TEXT="自定义命令与环境" ID="ID_1212064225" CREATED="1699046439452" MODIFIED="1699046446673"/>
 <node TEXT="箱子：排版的基础" ID="ID_1732975825" CREATED="1699046447215" MODIFIED="1699046454001"/>
 </node>
-<node TEXT="宏包" POSITION="top_or_left" ID="ID_1230508988" CREATED="1698944984930" MODIFIED="1698944989277">
+<node TEXT="宏包" FOLDED="true" POSITION="top_or_left" ID="ID_1230508988" CREATED="1698944984930" MODIFIED="1698944989277">
 <node TEXT="amsmath" ID="ID_285941135" CREATED="1699045560220" MODIFIED="1699045565422"/>
 <node TEXT="hologo" ID="ID_601047603" CREATED="1699045568675" MODIFIED="1699045570493"/>
 <node TEXT="listings" ID="ID_752630669" CREATED="1699034086240" MODIFIED="1699034089361"/>
