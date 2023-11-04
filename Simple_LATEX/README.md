@@ -16,4 +16,4 @@ Exported mindmap static image:
 
 | Video Title | Link in YouTube | Link in bilibili |
 | --- | --- | --- |
-| | | |
+| Learn_LaTeX_001_Opening 简单高效LATEX | | [link](https://www.bilibili.com/video/BV1pj411Y7PF/) |
