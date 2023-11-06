@@ -1,10 +1,38 @@
 \documentclass{ctexart}
-\begin{document}
-	\scshape Hello
-	
-	\lishu 中国
 
-	LaTeX – A document preparation system
+% \usepackage{fontspec}
+% 	\newfontfamily{\lucida}{Lucida Calligraphy}
+
+%\usepackage[slantfont, boldfont]{xeCJK}
+%	\xeCJKsetup{CJKMath=true}
+	% \setCJKmainfont[BoldFont=SimHei]{SimHei}
+%	\setCJKmainfont[BoldFont=SimSun]{SimSun}
+
+\usepackage{xcolor}
+
+\begin{document}
+	
+	% \scshape \ttfamily
+	
+	\huge
+		
+	% \lucida
+	
+	% \kaishu
+	
+	\yahei
+	
+	\color{green}
+	
+	{\textcolor{violet} violet}
+	
+	{\color{blue} text}
+	
+	
+	{\color{-red} LaTeX–A document preparation system} \\
 	
 	LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents. LaTeX is available as free software.
+	
+	国内的 CTeX 开发组为了满足用户在 LaTeX 中排版中文的种种需求，已经开发了多款 LaTeX 文档类以及 LaTeX 宏包。使用这些库，你能够很轻松地在 LaTeX 使用中文。
+	
 \end{document}
