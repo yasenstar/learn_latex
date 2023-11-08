@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Starting Latex}{2}{}%
+\contentsline {subsection}{\numberline {1.1}small part Latex}{2}{}%
+\contentsline {paragraph}{new one}{3}{}%
+\contentsline {section}{\numberline {2}Using Latex}{3}{}%
+\contentsline {paragraph}{new par}{3}{}%

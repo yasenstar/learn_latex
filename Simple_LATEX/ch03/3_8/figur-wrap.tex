@@ -1,0 +1,16 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\begin{document}
+	\begin{wrapfigure}{i}{0.8\linewidth}
+		
+		It may be noted that the width of the image included was specified relative to width of the text (\textwidth). It is a good idea to use relative sizes to define lengths (height, width, etc), particularly when using wrapfigure.
+		
+		\begin{center}
+			\includegraphics[width=0.4\linewidth]{house.png}
+		\end{center}
+		\caption{HOUSE} 
+		
+		In the example above, the figure covers exactly half of the the textwidth, and the actual image uses a slightly smaller width, so that there is a pleasing small white frame between the image and the text. The image should always be smaller (less wide) than the wrap, or it will overrun the text.
+	\end{wrapfigure}
+\end{document}
