@@ -1,0 +1,49 @@
+\documentclass[]{article}
+\usepackage[]{tikz,lipsum,lmodern}
+\usepackage[most]{tcolorbox}
+\usepackage{lineno}
+\begin{document}
+	
+	\section{Colored boxes}
+	
+	\begin{linenumbers}
+		
+	\begin{tcolorbox}[colback=red!5!white,colframe=red!75!white]
+		My Box.
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black, title=My title]
+		My box with my title\\
+		Second line
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}[colback=green!5!white,colframe=green!75!black]
+		Upper part of my box.
+		\tcblower
+		Lower part of my box.
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}[colback=yellow!5!white,colframe=yellow!50!black,
+		colbacktitle=yellow!75!black,title=My title]
+		I can do this also with a title.
+		\tcblower
+		Lower part of my box.
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}[colback=yellow!10!white,colframe=red!75!black,lowerbox=invisible,savelowerto=\jobname_ex.tex]
+		Now, we play hide and seek. Where is the lower part?
+		\tcblower
+		I'm invisible until you find me.
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}[colback=yellow!10!white,colframe=red!75!black,title=Here I am]
+		\input{\jobname_ex.tex}
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}
+		My box with my title
+	\end{tcolorbox}
+	
+	\end{linenumbers}
+	
+\end{document}

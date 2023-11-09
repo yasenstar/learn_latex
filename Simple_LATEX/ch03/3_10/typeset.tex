@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage[]{shortvrb} 
+\begin{document}
+	
+	fooo{}bar % cannot export {}
+	
+	\verb|fooo{}bar|
+	
+	\verb-fooo{}bar-	% not two *
+	
+	% with shortverb package
+ \MakeShortVerb|Verbatim between this pair of verts: |#$#$!$#!$! |
+
+	\verb|\begin{verbatim}|...\verb|\end{verbatim}|:
+	
+	\begin{verbatim}
+		Use \LaTeX to typeset the LaTeX logo.
+	\end{verbatim}
+	
+	Use \LaTeX to typeset the LaTeX logo.
+	
+\end{document}

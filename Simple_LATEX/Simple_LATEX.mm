@@ -3,7 +3,7 @@
 <node TEXT="简单高效LATEX" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1698846544311">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="1.01">
+<hook NAME="MapStyle" background="#f9f9f8" zoom="1.707">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -388,31 +388,84 @@
 </node>
 <node TEXT="3.8.4 非浮动体图表和并排图表" ID="ID_269770538" CREATED="1699046253990" MODIFIED="1699046263982"/>
 </node>
-<node TEXT="3.9 页面设置" ID="ID_802327354" CREATED="1699046275445" MODIFIED="1699046289136">
-<node TEXT="3.9.1 纸张、方向和边距" ID="ID_21534729" CREATED="1699493763728" MODIFIED="1699493795203"/>
+<node TEXT="3.9 页面设置" FOLDED="true" ID="ID_802327354" CREATED="1699046275445" MODIFIED="1699046289136">
+<node TEXT="3.9.1 纸张、方向和边距" ID="ID_21534729" CREATED="1699493763728" MODIFIED="1699493795203">
+<node TEXT="check paper size" ID="ID_1705458136" CREATED="1699497288090" MODIFIED="1699497301288" LINK="https://www.papersizes.org/"/>
+</node>
 <node TEXT="3.9.2 页眉和页脚" ID="ID_1430425198" CREATED="1699493795392" MODIFIED="1699493830541"/>
 </node>
-<node TEXT="3.10 抄录与代码环境" ID="ID_834180249" CREATED="1699046297155" MODIFIED="1699046304614"/>
+<node TEXT="3.10 抄录与代码环境" ID="ID_834180249" CREATED="1699046297155" MODIFIED="1699046304614">
+<node TEXT="抄录(typeset)" ID="ID_1915350665" CREATED="1699555316258" MODIFIED="1699555752286">
+<node TEXT="\verb(*)" ID="ID_1297292695" CREATED="1699555343363" MODIFIED="1699556026767"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sample
+    </p>
+    <pre style="font-family: monospace, monospace; font-size: 16px; background-color: rgb(244, 245, 246); margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 12.5px; padding-right: 12.5px; padding-bottom: 12.5px; padding-left: 12.5px; white-space: pre-wrap; color: rgb(73, 83, 101); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px"><span class="k">\documentclass</span><span class="nb">{</span>article<span class="nb">}</span>
+<span class="k">\title</span><span class="nb">{</span>A random walk in <span class="k">\LaTeX</span><span class="nb">}</span>
+<span class="k">\author</span><span class="nb">{</span>Overleaf Team<span class="nb">}</span>
+<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+<span class="k">\maketitle</span>
+<span class="k">\section</span><span class="nb">{</span>In the beginning...<span class="nb">}</span>
+Here is an example using the <span class="k">\texttt</span><span class="nb">{</span>verbatim<span class="nb">}</span> environment. You enclose the text within <span class="k">\verb</span>|<span class="k">\begin</span><span class="nb">{</span>verbatim<span class="nb">}</span>|...<span class="k">\verb</span>|<span class="k">\end</span><span class="nb">{</span>verbatim<span class="nb">}</span>|:
+
+<span class="k">\begin</span><span class="nb">{</span>verbatim<span class="nb">}</span>
+Use <span class="k">\LaTeX</span> to typeset the LaTeX logo.
+<span class="k">\end</span><span class="nb">{</span>verbatim<span class="nb">}</span>
+<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\verbatim(*)" ID="ID_629376589" CREATED="1699555348719" MODIFIED="1699555355505"/>
+</node>
+<node TEXT="代码环境" ID="ID_1015128486" CREATED="1699555325439" MODIFIED="1699556066834">
+<arrowlink DESTINATION="ID_923564373"/>
+</node>
+</node>
 <node TEXT="3.11 分栏" ID="ID_1551247655" CREATED="1699046309460" MODIFIED="1699046314359"/>
 <node TEXT="3.12 文档拆分" ID="ID_1054199078" CREATED="1699046320684" MODIFIED="1699046325717"/>
-<node TEXT="3.13 西文排版及其他" ID="ID_386477260" CREATED="1699046330396" MODIFIED="1699046339796">
+<node TEXT="3.13 西文排版及其他" FOLDED="true" ID="ID_386477260" CREATED="1699046330396" MODIFIED="1699046339796">
 <node TEXT="3.13.1 连写" ID="ID_917316349" CREATED="1699046339798" MODIFIED="1699046345662"/>
 <node TEXT="3.13.2 断词" ID="ID_632240927" CREATED="1699046345941" MODIFIED="1699046356870"/>
 </node>
 </node>
-<node TEXT="4. 数学排版" POSITION="bottom_or_right" ID="ID_159506677" CREATED="1699046366996" MODIFIED="1699046374806">
+<node TEXT="4. 数学排版" FOLDED="true" POSITION="bottom_or_right" ID="ID_159506677" CREATED="1699046366996" MODIFIED="1699046374806">
 <node TEXT="4.1 行内与行间公式" ID="ID_456754399" CREATED="1699046377691" MODIFIED="1699046386422"/>
 <node TEXT="4.2 空格、字号与数字字体" ID="ID_1160921201" CREATED="1699046415342" MODIFIED="1699046425271"/>
 <node TEXT="4.3 基本命令" ID="ID_1038543213" CREATED="1699046425421" MODIFIED="1699046430648"/>
 <node TEXT="4.4. 数学符号与字体" ID="ID_423765591" CREATED="1699046430807" MODIFIED="1699046436369"/>
 </node>
-<node TEXT="5. LaTeX进阶" POSITION="bottom_or_right" ID="ID_1775480813" CREATED="1699046402022" MODIFIED="1699046414104">
-<node TEXT="自定义命令与环境" ID="ID_1212064225" CREATED="1699046439452" MODIFIED="1699046446673"/>
-<node TEXT="箱子：排版的基础" ID="ID_1732975825" CREATED="1699046447215" MODIFIED="1699046454001">
+<node TEXT="5. LaTeX进阶" FOLDED="true" POSITION="bottom_or_right" ID="ID_1775480813" CREATED="1699046402022" MODIFIED="1699046414104">
+<node TEXT="5.1 自定义命令与环境" ID="ID_1212064225" CREATED="1699046439452" MODIFIED="1699564086529"/>
+<node TEXT="5.2 箱子：排版的基础" FOLDED="true" ID="ID_1732975825" CREATED="1699046447215" MODIFIED="1699564083529">
 <node TEXT="5.2.9" ID="ID_794231405" CREATED="1699299095910" MODIFIED="1699299098161"/>
 </node>
+<node TEXT="5.3 复杂距离" ID="ID_1397532489" CREATED="1699564070526" MODIFIED="1699564076361"/>
+<node TEXT="5.4 自定义章节样式" ID="ID_165885960" CREATED="1699564060998" MODIFIED="1699564068943"/>
+<node TEXT="5.5 自定义目录样式" ID="ID_147521363" CREATED="1699564050715" MODIFIED="1699564057147"/>
+<node TEXT="5.6 自定义图表" ID="ID_373385252" CREATED="1699564046028" MODIFIED="1699564049702"/>
+<node TEXT="5.7 自定义编号列表" ID="ID_1325187165" CREATED="1699564036793" MODIFIED="1699564044378"/>
+<node TEXT="5.8 参考文献" ID="ID_1447775449" CREATED="1699564030343" MODIFIED="1699564035864"/>
+<node TEXT="5.9 索引" ID="ID_345561639" CREATED="1699564025062" MODIFIED="1699564029469"/>
+<node TEXT="5.10 公式与图表编号样式" ID="ID_1460500967" CREATED="1699564011040" MODIFIED="1699564022277"/>
+<node TEXT="5.11 附录" ID="ID_56912829" CREATED="1699564003187" MODIFIED="1699564007397"/>
+<node TEXT="5.12 自定义浮动体" ID="ID_332525727" CREATED="1699563994225" MODIFIED="1699564001012"/>
+<node TEXT="5.13 编程代码与行号" ID="ID_923564373" CREATED="1699556051294" MODIFIED="1699556061569">
+<node TEXT="5.13.1 listings宏包" POSITION="bottom_or_right" ID="ID_203917724" CREATED="1699556077515" MODIFIED="1699556089317">
+<node TEXT="lstlisting环境" POSITION="bottom_or_right" ID="ID_749192733" CREATED="1699556192194" MODIFIED="1699556210248"/>
+<node TEXT="lstnewenvironment环境" POSITION="bottom_or_right" ID="ID_864792053" CREATED="1699556222277" MODIFIED="1699556236689"/>
+<node TEXT="lstinline环境：行内输出" POSITION="bottom_or_right" ID="ID_1749952313" CREATED="1699556243253" MODIFIED="1699556256437"/>
 </node>
-<node TEXT="宏包" POSITION="top_or_left" ID="ID_1230508988" CREATED="1698944984930" MODIFIED="1698944989277">
+<node TEXT="5.13.2 tcolorbox宏包" POSITION="bottom_or_right" ID="ID_1161085395" CREATED="1699563743297" MODIFIED="1699563758655"/>
+<node TEXT="5.13.3 行号" POSITION="bottom_or_right" ID="ID_1297029984" CREATED="1699563876321" MODIFIED="1699563881559"/>
+</node>
+</node>
+<node TEXT="宏包" FOLDED="true" POSITION="top_or_left" ID="ID_1230508988" CREATED="1698944984930" MODIFIED="1698944989277">
 <node TEXT="A" FOLDED="true" ID="ID_752951195" CREATED="1699489649885" MODIFIED="1699489651401">
 <node TEXT="amsmath" POSITION="top_or_left" ID="ID_285941135" CREATED="1699045560220" MODIFIED="1699045565422"/>
 <node TEXT="array" POSITION="top_or_left" ID="ID_198351214" CREATED="1699489978462" MODIFIED="1699489982290"/>
@@ -492,13 +545,18 @@
 </node>
 <node TEXT="J" ID="ID_1488576059" CREATED="1699489682388" MODIFIED="1699489683318"/>
 <node TEXT="K" ID="ID_1126689639" CREATED="1699489686756" MODIFIED="1699489687830"/>
-<node TEXT="L" FOLDED="true" ID="ID_1534292533" CREATED="1699299018201" MODIFIED="1699299019309">
+<node TEXT="L" ID="ID_1534292533" CREATED="1699299018201" MODIFIED="1699299019309">
 <node TEXT="lettrine" POSITION="top_or_left" ID="ID_679310856" CREATED="1699220105823" MODIFIED="1699220109129">
 <node TEXT="\lettrine" ID="ID_1035957192" CREATED="1699220117135" MODIFIED="1699220634812">
 <arrowlink DESTINATION="ID_1954036041" STARTINCLINATION="759.74998 pt;0 pt;" ENDINCLINATION="759.74998 pt;0 pt;"/>
 </node>
 </node>
-<node TEXT="listings" POSITION="top_or_left" ID="ID_752630669" CREATED="1699034086240" MODIFIED="1699034089361"/>
+<node TEXT="listings" POSITION="top_or_left" ID="ID_752630669" CREATED="1699034086240" MODIFIED="1699564468912" LINK="https://www.overleaf.com/learn/latex/Code_listing">
+<arrowlink DESTINATION="ID_203917724"/>
+</node>
+<node TEXT="lineno" POSITION="top_or_left" ID="ID_1362758285" CREATED="1699563894772" MODIFIED="1699566330753" LINK="https://texblog.org/2012/02/08/adding-line-numbers-to-documents/">
+<arrowlink DESTINATION="ID_1297029984"/>
+</node>
 <node TEXT="longtable" POSITION="top_or_left" ID="ID_1243104813" CREATED="1699405982527" MODIFIED="1699405988208">
 <arrowlink DESTINATION="ID_1967428907"/>
 </node>
@@ -542,7 +600,28 @@
 </node>
 <node TEXT="Q" ID="ID_948976006" CREATED="1699489714677" MODIFIED="1699489715649"/>
 <node TEXT="R" ID="ID_467318235" CREATED="1699489722436" MODIFIED="1699489723271"/>
-<node TEXT="S" FOLDED="true" ID="ID_1385545653" CREATED="1699405995620" MODIFIED="1699405998862">
+<node TEXT="S" ID="ID_1385545653" CREATED="1699405995620" MODIFIED="1699405998862">
+<node TEXT="shortvrb" POSITION="top_or_left" ID="ID_1549346367" CREATED="1699555877947" MODIFIED="1699567748551">
+<arrowlink DESTINATION="ID_1297292695"/>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      支持以一对符号代替\verb命令，比如竖线号。
+    </p>
+    <p>
+      % \usepackage{shortverb}
+    </p>
+    <p>
+      \MakeShortVerb|Verbatim between this part of verbs: |#\?*^|
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="siunitx" POSITION="top_or_left" ID="ID_1891792396" CREATED="1699045497964" MODIFIED="1699045515764">
 <arrowlink DESTINATION="ID_470502026"/>
 </node>
@@ -550,12 +629,17 @@
 <arrowlink DESTINATION="ID_1967428907"/>
 </node>
 </node>
-<node TEXT="T" FOLDED="true" ID="ID_280030021" CREATED="1699297070684" MODIFIED="1699297072030">
+<node TEXT="T" ID="ID_280030021" CREATED="1699297070684" MODIFIED="1699297072030">
 <node TEXT="tabu" POSITION="top_or_left" ID="ID_1364077758" CREATED="1699406022857" MODIFIED="1699406033389">
 <arrowlink DESTINATION="ID_1967428907"/>
 </node>
 <node TEXT="tabularx" POSITION="top_or_left" ID="ID_122396125" CREATED="1699489896023" MODIFIED="1699489899889">
 <node TEXT="\begin{tabular *}{width}[pos]{cols}" ID="ID_1146001946" CREATED="1699489902113" MODIFIED="1699489919342"/>
+</node>
+<node TEXT="tcolorbox" POSITION="top_or_left" ID="ID_549260249" CREATED="1699563770111" MODIFIED="1699566274642" LINK="https://www.overleaf.com/latex/examples/drawing-coloured-boxes-using-tcolorbox/pvknncpjyfbp">
+<node TEXT="\newtcblisting" ID="ID_918166203" CREATED="1699563784998" MODIFIED="1699563796222">
+<arrowlink DESTINATION="ID_1161085395"/>
+</node>
 </node>
 <node TEXT="texdoc" POSITION="top_or_left" ID="ID_1767333254" CREATED="1699213008358" MODIFIED="1699213010831">
 <node TEXT="xeCJK" ID="ID_433791855" CREATED="1699213029356" MODIFIED="1699213033466"/>
@@ -654,6 +738,7 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="xparse" POSITION="top_or_left" ID="ID_184601266" CREATED="1699563839333" MODIFIED="1699563843730"/>
 </node>
 <node TEXT="Y" ID="ID_533694969" CREATED="1699489761767" MODIFIED="1699489765351"/>
 <node TEXT="Z" ID="ID_1778433666" CREATED="1699489765822" MODIFIED="1699489766679"/>
