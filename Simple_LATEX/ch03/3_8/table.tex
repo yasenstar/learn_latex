@@ -1,0 +1,13 @@
+\documentclass[]{article}
+\begin{document}
+	% a table not in floating body
+	\begin{center}
+		\begin{tabular}[c]{|l|c|p{3em}|r|} \hline \hline
+			A & B & C & d \\
+			D & E & F & g \\
+			\cline{2-3}
+			G & \multicolumn{3}{|c|}{H} \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{document}

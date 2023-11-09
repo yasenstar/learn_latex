@@ -1,0 +1,21 @@
+\documentclass[]{article}
+\begin{document}
+	
+	\begin{tabular}{|c|c|c|}
+		\hline
+		a & b & c \\
+		\hline
+		a & \multicolumn{1}{@{}l@{}|}
+		{
+			\begin{tabular}{c | c}
+				a & b \\
+				\hline
+				aa & bb \\
+			\end{tabular}
+		} & c \\
+		\hline
+		a & b & c \\
+		\hline
+	\end{tabular}
+	
+\end{document}

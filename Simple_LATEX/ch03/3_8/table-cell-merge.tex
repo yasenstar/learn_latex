@@ -1,0 +1,19 @@
+\documentclass[]{article}
+\usepackage[]{multirow}
+\begin{document}
+	% a table with cells merge
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			A & B & C \\
+			\hline
+			\multirow{3}{2cm}{A Text!} & ABC & DEF \\
+				\cline{2-3} & abc & def \\
+				\cline{2-3} & 123 & 456 \\
+			\hline
+			\multicolumn{2}{|c|}{\multirow{2}*{Nothing}} & XYZ \\
+			\multicolumn{2}{|c|}{} & xyz \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{document}
