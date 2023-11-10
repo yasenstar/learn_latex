@@ -1,0 +1,354 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10) (preloaded format=xelatex 2023.11.2)  9 NOV 2023 20:09
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./insert_floating_element.tex
+(insert_floating_element.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(C:\Program Files\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(C:\Program Files\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen143
+\WF@size=\dimen144
+\c@WF@wrappedlines=\count190
+\WF@box=\box51
+\WF@everypar=\toks18
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Program Files\MiKTeX\tex/latex/blindtext\blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count191
+\c@Blindtext=\count192
+\c@blind@countparstart=\count193
+\blind@countxx=\count194
+\blindtext@numBlindtext=\count195
+\blind@countyy=\count196
+\c@blindlist=\count197
+\c@blindlistlevel=\count198
+\c@blindlist@level=\count199
+\blind@listitem=\count266
+\c@blind@listcount=\count267
+\c@blind@levelcount=\count268
+\blind@mathformula=\count269
+\blind@Mathformula=\count270
+\c@blind@randomcount=\count271
+\c@blind@randommax=\count272
+\c@blind@pangramcount=\count273
+\c@blind@pangrammax=\count274
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count275
+\mult@box=\box52
+\multicol@leftmargin=\dimen145
+\c@unbalance=\count276
+\c@collectmore=\count277
+\doublecol@number=\count278
+\multicoltolerance=\count279
+\multicolpretolerance=\count280
+\full@width=\dimen146
+\page@free=\dimen147
+\premulticols=\dimen148
+\postmulticols=\dimen149
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box53
+\last@line=\box54
+\mc@boxedresult=\box55
+\maxbalancingoverflow=\dimen150
+\mult@rightbox=\box56
+\mult@grightbox=\box57
+\mult@firstbox=\box58
+\mult@gfirstbox=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\c@minrows=\count281
+\c@columnbadness=\count282
+\c@finalcolumnbadness=\count283
+\last@try=\dimen151
+\multicolovershoot=\dimen152
+\multicolundershoot=\dimen153
+\mult@nat@firstbox=\box96
+\colbreak@box=\box97
+\mc@col@check@num=\count284
+)
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
+File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
+\g__graphics_track_int=\count285
+\l__pdf_internal_box=\box98
+\g__pdf_backend_object_int=\count286
+\g__pdf_backend_annotation_int=\count287
+\g__pdf_backend_link_int=\count288
+)
+(insert_floating_element.aux)
+\openout1 = `insert_floating_element.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+0.
+ (C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+File: overleaf.jpg Graphic file (type bmp)
+<overleaf.jpg>
+
+Overfull \hbox (3.47017pt too wide) in paragraph at lines 30--33
+[][]\TU/lmr/m/n/10 A
+ []
+
+
+Overfull \hbox (3.21017pt too wide) in paragraph at lines 30--33
+\TU/lmr/m/n/10 blind
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+\TU/lmr/m/n/10 text
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+\TU/lmr/m/n/10 like
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+\TU/lmr/m/n/10 this
+ []
+
+
+Overfull \hbox (2.13017pt too wide) in paragraph at lines 30--33
+\TU/lmr/m/n/10 gives
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+\TU/lmr/m/n/10 you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+\TU/lmr/m/n/10 in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+\TU/lmr/m/n/10 for-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+\TU/lmr/m/n/10 ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+\TU/lmr/m/n/10 tion
+ []
+
+
+Overfull \hbox (6.26018pt too wide) in paragraph at lines 30--33
+\TU/lmr/m/n/10 about
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+\TU/lmr/m/n/10 the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+\TU/lmr/m/n/10 se-
+ []
+
+
+Overfull \hbox (6.52017pt too wide) in paragraph at lines 30--33
+\TU/lmr/m/n/10 lected
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 38.
+
+Overfull \hbox (4.34898pt too wide) in paragraph at lines 38--51
+ [][] 
+ []
+
+
+Overfull \hbox (23.91017pt too wide) in paragraph at lines 56--57
+[][]\TU/lmr/m/n/10 Lorem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\TU/lmr/m/n/10 ip-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\TU/lmr/m/n/10 sum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\TU/lmr/m/n/10 do-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\TU/lmr/m/n/10 lor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\TU/lmr/m/n/10 sit
+ []
+
+
+Overfull \hbox (5.41017pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/n/10 amet,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\TU/lmr/m/n/10 con-
+ []
+
+
+Overfull \hbox (19.93018pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/n/10 sectetuer
+ []
+
+
+Overfull \hbox (3.20016pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/n/10 adip-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\TU/lmr/m/n/10 isc-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\TU/lmr/m/n/10 ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\TU/lmr/m/n/10 elit.
+ []
+
+[1
+
+] (insert_floating_element.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 1373 strings out of 410379
+ 23241 string characters out of 5792314
+ 1930416 words of memory out of 5000000
+ 22736 multiletter control sequences out of 15000+600000
+ 558093 words of font info for 39 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 57i,7n,65p,222b,259s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on insert_floating_element.pdf (1 page).
