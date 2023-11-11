@@ -1,0 +1,50 @@
+\documentclass[]{article}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{esint}
+\begin{document}
+	
+	% 4.3.1 上下标与虚位
+	
+	$a^3_{ij}$ \\
+	
+	$a_{ij}^3$ \\
+	
+	${a_{ij}}^3 \, \text{OR} \, a_{ij}{}^3$ \\
+	
+	$a^{\phantom{ij}3}_{ij}$ \\
+	
+	$a^{\phantom{ij}3}_{ij}$ \\
+	
+	$\mathrm{e}^{x^{y^3}} \geq 1 $ \\
+	
+	$ {}_{6}^{12}\mathrm{C} $ \\
+	
+	$ {}_{\phantom{1}6}^{12}\mathrm{C} $ \\ % need "mathtools"
+	
+	$\prescript{133323432}{5556}{\mathrm{C}}$ \\
+	
+	% 4.3.2 微分与积分
+	
+	$y'=x \qquad \dot{y}(t)=t $ \\
+	
+	$\ddot{y}(t) = t + 1 \qquad \dddot{y} + \ddddot{y} = 0 $ \\
+	
+	$\int_{0}^{1}f(x) = 1 \qquad \iiiint_D f(x) = 0 $ \\
+	
+	% self defined "dx" display
+	\newcommand{\ud}{\mathop{}\negthinspace\mathrm{d}}
+	
+	\[
+		\left.\frac{\ud y}{\ud x} \right |_{x=0}
+	\] \\
+	
+	\[
+		\frac{ \partial f } { \partial x}
+	\] \\
+	
+	\[
+		\oint \; \varoiint_S
+	\] \\ % need "esint"
+	
+\end{document}
