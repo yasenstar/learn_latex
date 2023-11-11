@@ -1,0 +1,72 @@
+\documentclass[UTF8]{ctexart}
+\usepackage[]{amsmath}
+\usepackage{amsfonts}
+\begin{document}
+	% 4.2.1 空格
+	
+	空格 \\
+	
+	$a^2 + b^2 =     c^2$ \\
+	
+	$\mbox{空格}: \mbox{没有空格}$ \\
+	
+	$\mbox{空\,格}: 3/18\mbox{空格}$ \\ % most frequently used
+	
+	$\mbox{空\:格}: 4/18\mbox{空格}$ \\
+	
+	$\mbox{空\;格}: 5/18\mbox{空格}$ \\
+	
+	$\mbox{空\ 格}: 9/18\mbox{空格}$ \\
+	
+	$\mbox{空\quad 格}: quad\mbox{空格}$ \\
+	
+	$\mbox{空\qquad 格}: qquad\mbox{空格}$ \\
+	
+	$\mbox{空\!格}: -3/18\mbox{空格}$ \\
+		
+	% self defined "dx" display
+	\newcommand{\ud}{\mathop{}\negthinspace\mathrm{d}}
+	
+	\[ \int_0^1 x \ud{}x = \frac{1}{2}\]
+	
+	% 4.2.2 Space
+	
+	\[ My \, formular:\, \underline{\int f(x) \ud{} x} = 1\]
+	
+	\[ My \, formular:\, \underline{\smash{\int f(x) \ud{} x} }= 1\] \\
+	
+	$\sqrt{A_{n_k}} \qquad \sqrt{\smash[b]{A_{n_k}}}$ \\
+	
+	% 4.2.3 Font size
+	
+	\[\displaystyle{\sum_{i=1}^n a} \] \\
+	
+	$ \textstyle{\sum_{i=1}^n a} $ \\
+	
+	$ \scriptstyle{\sum_{i=1}^n a} $ \\
+	
+	$ \scriptscriptstyle{\sum_{i=1}^n a} $ \\
+	
+	% 4.2.4 Math Font
+	
+	\newcommand{\ue}{\mathrm{e}}
+	
+	$ \mathrm{e} \qquad \ue $ \\
+	
+	$ \mathrm{ABCD\,abcde\, 1234} $ \\
+	
+	$ \mathit{ABCD\,abcde\, 1234} $ \\
+	
+	$ \mathnormal{ABCD\,abcde\, 1234} $ \\
+	
+	$ \mathcal{ABCD\,abcde\, 1234} $ \\
+	
+	$ \mu, \, M $ \\
+	
+	$ \boldsymbol{\mu}, \, \boldsymbol{M} $ \\
+	
+	$ \boldsymbol{\mu, \, M} $ \\
+	
+	$ x^2 \geq 0 \qquad \textrm{任意} \quad x \in \mathbb{R}$
+	
+\end{document}
