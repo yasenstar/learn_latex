@@ -123,7 +123,7 @@
 <node TEXT="2.5 TeX Live的其他使用情况" ID="ID_461595451" CREATED="1698847029192" MODIFIED="1698847039076"/>
 <node TEXT="2.6 编译文档" ID="ID_1060498621" CREATED="1698847039226" MODIFIED="1698847050610"/>
 </node>
-<node TEXT="3. LaTeX基础" POSITION="bottom_or_right" ID="ID_1350371987" CREATED="1698847051449" MODIFIED="1698847058412">
+<node TEXT="3. LaTeX基础" FOLDED="true" POSITION="bottom_or_right" ID="ID_1350371987" CREATED="1698847051449" MODIFIED="1698847058412">
 <node TEXT="3.1 认识LaTeX" FOLDED="true" ID="ID_1446732728" CREATED="1699032066303" MODIFIED="1699296909944" LINK="https://www.latex-project.org/">
 <node TEXT="3.1.1 命令与环境" FOLDED="true" ID="ID_1230066997" CREATED="1699032074774" MODIFIED="1699032085873">
 <node TEXT="命令：LaTeX中的命令通常是由一个反斜杠加上命令名称，再加上花括号内的参数构成" ID="ID_520684508" CREATED="1699032096230" MODIFIED="1699032136329"/>
@@ -418,8 +418,7 @@ Use <span class="k">\LaTeX</span> to typeset the LaTeX logo.
 <span class="k">\end</span><span class="nb">{</span>verbatim<span class="nb">}</span>
 <span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="\verbatim(*)" ID="ID_629376589" CREATED="1699555348719" MODIFIED="1699555355505"/>
 </node>
@@ -450,11 +449,34 @@ Use <span class="k">\LaTeX</span> to typeset the LaTeX logo.
 <node TEXT="3.13.4 特殊符号" ID="ID_1554654472" CREATED="1699580895779" MODIFIED="1699580903930"/>
 </node>
 </node>
-<node TEXT="4. 数学排版" FOLDED="true" POSITION="bottom_or_right" ID="ID_159506677" CREATED="1699046366996" MODIFIED="1699046374806">
+<node TEXT="4. 数学排版" POSITION="bottom_or_right" ID="ID_159506677" CREATED="1699046366996" MODIFIED="1699046374806">
 <node TEXT="4.1 行内与行间公式" ID="ID_456754399" CREATED="1699046377691" MODIFIED="1699046386422"/>
-<node TEXT="4.2 空格、字号与数字字体" ID="ID_1160921201" CREATED="1699046415342" MODIFIED="1699046425271"/>
-<node TEXT="4.3 基本命令" ID="ID_1038543213" CREATED="1699046425421" MODIFIED="1699046430648"/>
-<node TEXT="4.4. 数学符号与字体" ID="ID_423765591" CREATED="1699046430807" MODIFIED="1699046436369"/>
+<node TEXT="4.2 空格、字号与数字字体" ID="ID_1160921201" CREATED="1699046415342" MODIFIED="1699046425271">
+<node TEXT="4.2.1 空格" ID="ID_1250952401" CREATED="1699587063718" MODIFIED="1699587068863"/>
+<node TEXT="4.2.2 间距" ID="ID_1302544068" CREATED="1699587073281" MODIFIED="1699587079514"/>
+<node TEXT="4.2.3 字号" ID="ID_102240479" CREATED="1699587112032" MODIFIED="1699587118924"/>
+<node TEXT="4.2.4 数学字体" ID="ID_355992469" CREATED="1699587121380" MODIFIED="1699587125694"/>
+</node>
+<node TEXT="4.3 基本命令" ID="ID_1038543213" CREATED="1699046425421" MODIFIED="1699046430648">
+<node TEXT="4.3.1 上下标与虚位" ID="ID_1771410109" CREATED="1699587135581" MODIFIED="1699587154172"/>
+<node TEXT="4.3.2 微分与积分" ID="ID_1299517988" CREATED="1699587201850" MODIFIED="1699587210491"/>
+<node TEXT="4.3.3 分式、根式与堆叠" ID="ID_1650594697" CREATED="1699587214117" MODIFIED="1699587227250"/>
+<node TEXT="4.3.4 累加与累积" ID="ID_984744229" CREATED="1699587253649" MODIFIED="1699587262200"/>
+<node TEXT="4.3.5 矩阵与省略号" ID="ID_806384715" CREATED="1699587266059" MODIFIED="1699587341256"/>
+<node TEXT="4.3.6 分段函数与联立方程" ID="ID_879211037" CREATED="1699587368628" MODIFIED="1699587382989"/>
+<node TEXT="4.3.7 多行公式及其编号" ID="ID_490243711" CREATED="1699587386563" MODIFIED="1699587396579"/>
+<node TEXT="4.3.8 二项式" ID="ID_1329904481" CREATED="1699587525179" MODIFIED="1699587530876"/>
+<node TEXT="4.3.9 定理" ID="ID_222038309" CREATED="1699587533916" MODIFIED="1699587538016"/>
+</node>
+<node TEXT="4.4. 数学符号与字体" ID="ID_423765591" CREATED="1699046430807" MODIFIED="1699046436369">
+<node TEXT="4.4.1 数学字体" ID="ID_1457957241" CREATED="1699587545211" MODIFIED="1699587550047"/>
+<node TEXT="4.4.2 定界符" ID="ID_210355250" CREATED="1699587550470" MODIFIED="1699587558111"/>
+<node TEXT="4.4.3 希腊字母" ID="ID_410726936" CREATED="1699587616163" MODIFIED="1699587627233"/>
+<node TEXT="4.4.4 二元运算符" ID="ID_1667868488" CREATED="1699587632931" MODIFIED="1699587640035"/>
+<node TEXT="4.4.5 二元关系符" ID="ID_980719410" CREATED="1699587642658" MODIFIED="1699587653517"/>
+<node TEXT="4.4.6 箭头与长等号" ID="ID_198990625" CREATED="1699587657312" MODIFIED="1699587665989"/>
+<node TEXT="4.4.7 其他符号" ID="ID_729386261" CREATED="1699587698988" MODIFIED="1699587703902"/>
+</node>
 </node>
 <node TEXT="5. LaTeX进阶" FOLDED="true" POSITION="bottom_or_right" ID="ID_1775480813" CREATED="1699046402022" MODIFIED="1699046414104">
 <node TEXT="5.1 自定义命令与环境" ID="ID_1212064225" CREATED="1699046439452" MODIFIED="1699564086529"/>
@@ -543,8 +565,7 @@ Use <span class="k">\LaTeX</span> to typeset the LaTeX logo.
       页面设置
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="graphicx" POSITION="top_or_left" ID="ID_1477294180" CREATED="1699405530807" MODIFIED="1699405539211">
 <arrowlink DESTINATION="ID_1330686978"/>
@@ -613,8 +634,7 @@ Use <span class="k">\LaTeX</span> to typeset the LaTeX logo.
       提供Palatino字体
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Q" ID="ID_948976006" CREATED="1699489714677" MODIFIED="1699489715649"/>
@@ -638,8 +658,7 @@ Use <span class="k">\LaTeX</span> to typeset the LaTeX logo.
       \MakeShortVerb|Verbatim between this part of verbs: |#\?*^|
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="siunitx" POSITION="top_or_left" ID="ID_1891792396" CREATED="1699045497964" MODIFIED="1699045515764">
 <arrowlink DESTINATION="ID_470502026"/>
@@ -712,8 +731,7 @@ Use <span class="k">\LaTeX</span> to typeset the LaTeX logo.
       对应textbf或者bfseries命令的变换结果
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="SimSun" ID="ID_1296599577" CREATED="1699298428335" MODIFIED="1699298430894"/>
 <node TEXT="SimHei" ID="ID_349656426" CREATED="1699298431077" MODIFIED="1699298433353"/>
 </node>
@@ -727,8 +745,7 @@ Use <span class="k">\LaTeX</span> to typeset the LaTeX logo.
       对应\textsf
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="setCJKmonofont" ID="ID_612146813" CREATED="1699298462109" MODIFIED="1699298535154"><richcontent TYPE="NOTE">
 <html>
@@ -740,8 +757,7 @@ Use <span class="k">\LaTeX</span> to typeset the LaTeX logo.
       对应\texttt
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="setCJKmathfont" ID="ID_848777375" CREATED="1699298440093" MODIFIED="1699298578131"><richcontent TYPE="NOTE">
 <html>
@@ -753,8 +769,7 @@ Use <span class="k">\LaTeX</span> to typeset the LaTeX logo.
       对应数学环境下的CJK字体，需要在xeCJKsetup中设置CJKMath=true
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="xparse" POSITION="top_or_left" ID="ID_184601266" CREATED="1699563839333" MODIFIED="1699563843730"/>
