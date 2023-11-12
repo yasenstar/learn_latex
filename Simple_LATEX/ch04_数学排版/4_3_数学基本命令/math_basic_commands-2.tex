@@ -1,4 +1,4 @@
-\documentclass[]{article}
+\documentclass[]{ctexart}
 \usepackage{amsmath}
 \usepackage{mathtools}
 \usepackage{mathdots}
@@ -52,10 +52,20 @@
 		\mathbf{H} = 
 		\begin{bmatrix}
 			\dfrac{\partial^2 f}{\partial x^2} & 
-			\dfrac{\partial^2 f}{\partial x^2} \\
-			\dfrac{\partial^2 f}{\partial x^2} &
-			\dfrac{\partial^2 f}{\partial x^2}
+			\dfrac{\partial^2 f}{\partial x \partial y} \\
+			\dfrac{\partial^2 f}{\partial x \partial y} &
+			\dfrac{\partial^2 f}{\partial y^2}
 		\end{bmatrix}
 	\] \\
+	
+	矩阵 $\left(\begin{smallmatrix} x & -y \\ y & x\end{smallmatrix}\right)$ 可以显示在行内。 \\
+	
+	\[
+		\bordermatrix{
+			& 1 & 2 \cr
+		1 & A & B \cr
+		2 & C & D \cr
+		}
+	\]
 	
 \end{document}
