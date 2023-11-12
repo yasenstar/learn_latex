@@ -1,0 +1,46 @@
+\documentclass[]{ctexart}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[]{amsthm}
+\theoremstyle{definition}\newtheorem{laws}{Law}[section]
+\theoremstyle{plain}\newtheorem{ju}[laws]{Jury}
+\theoremstyle{remark}\newtheorem*{marg}{Margaret}
+
+\begin{document}
+	
+	% 4.3.8 二项式
+	
+	$\mathrm{C}_n^k=\binom{n}{k}
+		\qquad
+	 a_n = \tbinom{n}{k}
+	 	\qquad
+	 a_n = \dbinom{n}{k}
+	$ \\
+	
+	% \genfrac{left-delim}{right-delim}{thickness}{mathstyle}
+	% {numerator}{denominator}
+	\newcommand{\Bfrac}[2]{\genfrac{[}{]}{0}{}{#1}{#2}}
+	
+	\[
+J		\text{定义} \Bfrac{n}{k} = \binom{k}{n}
+	\] \\
+	
+	% 4.3.9 定理
+	
+	\begin{laws}
+		从不轻易相信。
+	\end{laws}
+	\begin{ju}[第二]
+		从不过分怀疑。
+	\end{ju}
+	\begin{marg}
+		没有其他的了。
+	\end{marg}
+	
+	\begin{proof}
+		对直角三角形，有：
+		\[a^2 + b^2 = c^2 \qedhere \]
+	\end{proof}
+
+	
+\end{document}

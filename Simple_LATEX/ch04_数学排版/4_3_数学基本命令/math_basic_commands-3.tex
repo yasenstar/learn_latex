@@ -1,0 +1,87 @@
+\documentclass[]{ctexart}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\begin{document}
+	
+	% 4.3.6
+	
+	\[
+		y =
+		\begin{cases}
+			\int x, & x>0 \\
+			0, & x=0 \\
+			x-1, & x<0 \\
+			other, & x<-10
+		\end{cases},
+		x \in \mathbb{R}
+	\] \\
+	
+	\[
+		y = 
+		\begin{dcases}
+			\int x, & x>0 \\
+			x^2, & x \leqslant 0
+		\end{dcases}
+	\] \\
+	
+	\[
+		z =
+		\begin{dcases*}
+			y, & 当 $y$ 是质数 \\
+			y^2, & 其他情况
+		\end{dcases*}
+	\] \\
+	
+	\[
+		\begin{dcases}
+			x-y = 3 \\
+			3x-8y = 4
+		\end{dcases}
+	\] \\
+	
+	% 4.3.7
+	
+	\begin{align}
+		a^2 & = a \cdot a \\
+		    & = a*a \\
+		    & = a^2
+	\end{align} \\
+	
+	\begin{align}
+		a^2 & = a \cdot a & b&=c\nonumber \\
+		g & = a*a & d&>e>f \nonumber\\
+		step& = a^2 & &Z^3
+	\end{align}
+	
+	\begin{multline}
+		a>b \\
+		b>c \\
+		\therefore a>c
+	\end{multline} \\
+	
+	\begin{align*}
+		\intertext{若}
+		y & = 0 \\
+		x & < 0 \\
+		\intertext{则}
+		z & = x + y
+	\end{align*} \\
+	
+	\begin{align*}
+		\shortintertext{若}
+		y & = 0 \\
+		x & < 0 \\
+		\shortintertext{则}
+		z & = x + y
+	\end{align*} \\
+	
+	\begin{gather}
+		X=1+2+\cdots+n \\
+		Y = 1 \\
+		Z = X^Y + Y^3
+	\end{gather}
+	
+\end{document}
