@@ -3,7 +3,7 @@
 <node TEXT="简单高效LATEX" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1698846544311">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="1.01">
+<hook NAME="MapStyle" background="#f9f9f8" zoom="2.885">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -123,7 +123,7 @@
 <node TEXT="2.5 TeX Live的其他使用情况" ID="ID_461595451" CREATED="1698847029192" MODIFIED="1698847039076"/>
 <node TEXT="2.6 编译文档" ID="ID_1060498621" CREATED="1698847039226" MODIFIED="1698847050610"/>
 </node>
-<node TEXT="3. LaTeX基础" POSITION="bottom_or_right" ID="ID_1350371987" CREATED="1698847051449" MODIFIED="1698847058412">
+<node TEXT="3. LaTeX基础" FOLDED="true" POSITION="bottom_or_right" ID="ID_1350371987" CREATED="1698847051449" MODIFIED="1698847058412">
 <node TEXT="3.1 认识LaTeX" FOLDED="true" ID="ID_1446732728" CREATED="1699032066303" MODIFIED="1699296909944" LINK="https://www.latex-project.org/">
 <node TEXT="3.1.1 命令与环境" FOLDED="true" ID="ID_1230066997" CREATED="1699032074774" MODIFIED="1699032085873">
 <node TEXT="命令：LaTeX中的命令通常是由一个反斜杠加上命令名称，再加上花括号内的参数构成" ID="ID_520684508" CREATED="1699032096230" MODIFIED="1699032136329"/>
@@ -233,7 +233,7 @@
 <node TEXT="注音符号，常用于拼音声调" ID="ID_470502026" CREATED="1699045439236" MODIFIED="1699045461183"/>
 </node>
 </node>
-<node TEXT="3.3 格式控制" ID="ID_1018972823" CREATED="1699045581493" MODIFIED="1699045587693">
+<node TEXT="3.3 格式控制" FOLDED="true" ID="ID_1018972823" CREATED="1699045581493" MODIFIED="1699045587693">
 <node TEXT="LaTeX的长度单位" ID="ID_518285040" CREATED="1699045595349" MODIFIED="1699045603610">
 <node TEXT="pt: point 磅" ID="ID_1511613711" CREATED="1699045603613" MODIFIED="1699045616717"/>
 <node TEXT="pc: pica, 1pc = 12pt, 四号字" ID="ID_1851340191" CREATED="1699045619134" MODIFIED="1699045638942"/>
@@ -449,7 +449,7 @@ Use <span class="k">\LaTeX</span> to typeset the LaTeX logo.
 <node TEXT="3.13.4 特殊符号" ID="ID_1554654472" CREATED="1699580895779" MODIFIED="1699580903930"/>
 </node>
 </node>
-<node TEXT="4. 数学排版" FOLDED="true" POSITION="bottom_or_right" ID="ID_159506677" CREATED="1699046366996" MODIFIED="1699046374806">
+<node TEXT="4. 数学排版" POSITION="bottom_or_right" ID="ID_159506677" CREATED="1699046366996" MODIFIED="1699046374806">
 <node TEXT="4.1 行内与行间公式" ID="ID_456754399" CREATED="1699046377691" MODIFIED="1699046386422"/>
 <node TEXT="4.2 空格、字号与数字字体" FOLDED="true" ID="ID_1160921201" CREATED="1699046415342" MODIFIED="1699046425271">
 <node TEXT="4.2.1 空格" ID="ID_1250952401" CREATED="1699587063718" MODIFIED="1699587068863">
@@ -584,8 +584,8 @@ Use <span class="k">\LaTeX</span> to typeset the LaTeX logo.
 </node>
 </node>
 <node TEXT="amsmath" POSITION="top_or_left" ID="ID_285941135" CREATED="1699045560220" MODIFIED="1699748835920">
-<arrowlink DESTINATION="ID_199149636"/>
 <arrowlink DESTINATION="ID_1215969809"/>
+<arrowlink DESTINATION="ID_199149636"/>
 <node TEXT="\binom" ID="ID_406135495" CREATED="1699751565538" MODIFIED="1699751581424">
 <arrowlink DESTINATION="ID_1298952086"/>
 </node>
